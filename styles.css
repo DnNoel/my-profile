@@ -394,6 +394,7 @@ li{margin:.3rem 0}
 /* Expanded state */
 .project-card.active .project-body {
   max-height: 800px; /* large enough to fit content */
+  overflow-y: auto;
 }
 
 .project-card.active .toggle-icon {
